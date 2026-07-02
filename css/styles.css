@@ -514,7 +514,10 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; color: var(--ink);
    ===================================================================== */
 .footer { background: var(--ink-2); color: #8f8f8a; padding: 50px var(--gutter) 34px; }
 .footer__top { display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,.1); padding-bottom: 30px; margin-bottom: 24px; gap: 40px; flex-wrap: wrap; }
-.footer__name { font-family: var(--serif); color: var(--white); font-size: 17px; letter-spacing: .05em; }
+.footer__brand { display: inline-block; }
+.footer__brand:hover .footer__name { color: var(--gold); }
+.footer__brand:hover .footer__en { opacity: .85; }
+.footer__name { font-family: var(--serif); color: var(--white); font-size: 17px; letter-spacing: .05em; transition: color .2s; }
 .footer__en { font-size: 11px; letter-spacing: .14em; color: var(--gold); margin-top: 6px; }
 .footer__addr { font-size: 12px; margin-top: 18px; line-height: 1.9; }
 .footer__nav { display: flex; gap: 54px; font-size: 13px; }
