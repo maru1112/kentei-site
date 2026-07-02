@@ -521,15 +521,14 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; color: var(--ink);
   .profile__k { border-right: none; border-bottom: 1px solid var(--border); }
   .footer__nav { gap: 40px; }
 
-  /* 組織図：3カラムを縦積み、横バーは隠す */
-  .org-branch__cols, .orgchart__cols { grid-template-columns: 1fr; gap: 0; }
-  .org-branch__bar, .orgchart__bar { display: none; }
-  .org-branch__col, .orgchart__col { margin-top: 0; }
-  .org-branch__col::before, .orgchart__col::before {
-    content: ""; width: 1px; height: 16px; background: var(--gold-line);
-  }
-  .orgchart__stub, .org-branch__col > .orgline:first-child { display: none; }
-  .obox--unit, .orgbox--unit { width: auto; padding-inline: 28px; }
+  /* 組織図：PCと同じく3本部を横並びで維持（幅に収まるよう縮小） */
+  .org-teaser__chart { padding: 28px 14px; }
+  .org-branch__cols { gap: 10px; }
+  .org-branch__bar { left: calc((100% - 20px) / 6); right: calc((100% - 20px) / 6); }
+  .orgbox--unit { font-size: 11px; padding: 10px 2px; white-space: normal; line-height: 1.4; }
+  .orgchart__cols { gap: 16px; }
+  .orgchart__bar { left: calc((100% - 32px) / 6); right: calc((100% - 32px) / 6); }
+  .obox--unit { font-size: 11px; padding: 12px 2px; white-space: normal; line-height: 1.4; }
   .exam__specs { gap: 22px; }
   .news-band__head { align-items: flex-start; }
   .news-row { flex-wrap: wrap; gap: 10px 16px; }
