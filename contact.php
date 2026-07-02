@@ -153,7 +153,10 @@ $from_header = mb_encode_mimeheader('日本総合検定資格センター お問
 $headers  = 'From: ' . $from_header . "\r\n";
 $headers .= 'Reply-To: ' . $data['email'] . "\r\n";
 
-$sent = mb_send_mail(TO_EMAIL, $subject, $body, $headers);
+// Xserverではエンベロープ送信元(-f)の指定が必須。指定しないと配信されない/
+// 迷惑メール扱いになることが多い。FROM_EMAIL はサーバー上に実在するアドレスにすること。
+$envelope = '-f' . FROM_EMAIL;
+$sent = mb_send_mail(TO_EMAIL, $subject, $body, $headers, $envelope);
 
 if ($sent) {
     respond(true, 'お問い合わせを受け付けました。担当者より折り返しご連絡いたします。');
