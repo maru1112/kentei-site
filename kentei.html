@@ -36,6 +36,26 @@
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="css/styles.css">
 <script src="js/main.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "HOME",
+      "item": "https://kentei-center.or.jp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "検定一覧",
+      "item": "https://kentei-center.or.jp/kentei.html"
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <div class="site">
@@ -49,7 +69,7 @@
   </div>
 
   <header class="header">
-    <a class="header__logo" href="index.html"><img src="assets/logo-t.png" alt="一般社団法人 日本総合検定資格センター"></a>
+    <a class="header__logo" href="index.html"><img src="assets/logo-t.png" alt="一般社団法人 日本総合検定資格センター" width="1045" height="283"></a>
     <button class="nav-toggle" type="button" aria-label="メニューを開閉" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="nav">
       <a class="is-active" href="kentei.html">検定一覧</a>
