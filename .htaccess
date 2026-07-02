@@ -1,0 +1,7 @@
+# URL正規化:http→https、www有り→無し を https://kentei-center.or.jp/ に統一(301)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\.kentei-center\.or\.jp [NC]
+  RewriteRule ^(.*)$ https://kentei-center.or.jp/$1 [R=301,L]
+</IfModule>
