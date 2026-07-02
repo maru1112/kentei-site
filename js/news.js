@@ -25,7 +25,6 @@
     el.innerHTML = items.slice(0, 3).map(function (item) {
       var row = '<div class="news-row">' +
         '<span class="news-row__date">' + esc(item.date) + '</span>' +
-        '<span class="news-row__tag">' + esc(item.tag) + '</span>' +
         '<span class="news-row__ttl">' + esc(item.title) + '</span>' +
         '</div>';
       var href = linkFor(item);
@@ -69,7 +68,6 @@
     el.innerHTML =
       '<div class="news-detail__meta">' +
         '<span class="news-detail__date">' + esc(item.date) + '</span>' +
-        (item.tag ? '<span class="news-detail__tag">' + esc(item.tag) + '</span>' : '') +
       '</div>' +
       '<h2 class="news-detail__ttl">' + esc(item.title) + '</h2>' +
       '<div class="news-detail__body">' + paragraphs + '</div>' +
