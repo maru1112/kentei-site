@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>お問い合わせ | 一般社団法人 日本総合検定資格センター</title>
+<meta name="description" content="検定の受験、団体・法人向けの導入、検定の新設のご相談など、お問い合わせフォームより承ります。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<div class="site">
+
+  <div class="topbar px">
+    <span class="topbar__org">一般社団法人 日本総合検定資格センター</span>
+    <div class="topbar__links">
+      <a href="recruit.html">採用情報</a>
+      <span class="is-plain">受験者マイページ</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <a class="header__logo" href="index.html"><img src="assets/logo-t.png" alt="一般社団法人 日本総合検定資格センター"></a>
+    <button class="nav-toggle" type="button" aria-label="メニューを開閉" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="kentei.html">検定一覧</a>
+      <a href="business.html">事業案内</a>
+      <a href="about.html">会社概要</a>
+      <a href="faq.html">よくあるご質問</a>
+      <a href="news.html">お知らせ</a>
+      <a class="nav__cta is-active" href="contact.html">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <section class="page-title">
+    <div class="breadcrumb"><a href="index.html">HOME</a> ／ お問い合わせ</div>
+    <div class="page-title__row">
+      <h1>お問い合わせ</h1>
+      <span class="page-title__en">CONTACT</span>
+    </div>
+    <p class="page-title__lead">検定の受験、団体・法人向けの導入、検定の新設のご相談など、お気軽にお問い合わせください。内容を確認のうえ、担当より折り返しご連絡いたします。</p>
+  </section>
+
+  <!-- 連絡手段 -->
+  <section class="contact-methods">
+    <div class="contact-methods__row">
+      <div>
+        <div class="eyebrow eyebrow--sm" style="margin-bottom:8px">EACH EXAM</div>
+        <div class="contact-methods__txt">個別の検定に関するお問い合わせは、各検定の公式サイトから承ります。</div>
+      </div>
+      <a class="link-underline" href="kentei.html" style="font-size:13px;padding-bottom:3px">検定一覧を見る →</a>
+    </div>
+  </section>
+
+  <!-- フォーム -->
+  <section class="section section--paper" style="padding-bottom:84px">
+    <div class="form-wrap">
+      <div class="section-head" style="margin-bottom:40px">
+        <div class="eyebrow">CONTACT FORM</div>
+        <h2>お問い合わせフォーム</h2>
+        <p style="font-size:13px;color:var(--muted);margin-top:12px"><span style="color:var(--req)">※</span> は必須項目です。</p>
+      </div>
+
+      <form class="form-card" action="#" method="post" novalidate>
+        <div>
+          <label class="field__label">お問い合わせ種別 <span class="req-badge">必須</span></label>
+          <select required>
+            <option>受験・検定内容について</option>
+            <option>団体・法人での受験について</option>
+            <option>新しい検定の新設・運営の相談</option>
+            <option>資料請求</option>
+            <option>取材・広報について</option>
+            <option>その他</option>
+          </select>
+        </div>
+
+        <div class="field-2col">
+          <div>
+            <label class="field__label">お名前 <span class="req-badge">必須</span></label>
+            <input type="text" placeholder="山田 太郎" required>
+          </div>
+          <div>
+            <label class="field__label">フリガナ</label>
+            <input type="text" placeholder="ヤマダ タロウ">
+          </div>
+        </div>
+
+        <div>
+          <label class="field__label">会社・団体名 <span class="req-badge">必須</span></label>
+          <input type="text" placeholder="例：株式会社○○／○○高等学校" required>
+        </div>
+
+        <div class="field-2col">
+          <div>
+            <label class="field__label">メールアドレス <span class="req-badge">必須</span></label>
+            <input type="email" placeholder="info@example.com" required>
+          </div>
+          <div>
+            <label class="field__label">電話番号 <span class="req-badge">必須</span></label>
+            <input type="tel" placeholder="03-0000-0000" required>
+          </div>
+        </div>
+
+        <div>
+          <label class="field__label">ご住所 <span class="req-badge">必須</span></label>
+          <input type="text" placeholder="〒100-0000　東京都〇〇区〇〇0-0-0" required>
+        </div>
+
+        <div>
+          <label class="field__label">お問い合わせ内容 <span class="req-badge">必須</span></label>
+          <textarea rows="6" placeholder="お問い合わせ内容をご記入ください。" required></textarea>
+        </div>
+
+        <label class="consent">
+          <input type="checkbox" required>
+          <span><a href="#">個人情報保護方針</a>に同意のうえ送信します。ご入力いただいた情報は、お問い合わせへの対応にのみ利用します。</span>
+        </label>
+
+        <div class="form-submit">
+          <button type="submit">送信する</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div>
+        <div class="footer__name">一般社団法人<br>日本総合検定資格センター</div>
+        <div class="footer__en">Nippon Comprehensive Certification Center</div>
+        <div class="footer__addr">〒813-0034 福岡県福岡市東区多の津3-14-6<br>お問い合わせはメールフォームより承ります。</div>
+      </div>
+      <div class="footer__nav">
+        <div class="footer__col">
+          <a href="kentei.html">検定一覧</a>
+          <a href="business.html">事業案内</a>
+          <a href="about.html">会社概要</a>
+        </div>
+        <div class="footer__col">
+          <a href="news.html">お知らせ</a>
+          <a href="faq.html">よくあるご質問</a>
+          <a href="contact.html">お問い合わせ</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy">© 2026 Nippon Comprehensive Certification Center. All rights reserved.</div>
+  </footer>
+
+</div>
+</body>
+</html>
