@@ -9,10 +9,9 @@
 
 // ===== 設定(ここを書き換えれば送信先などを変更できます) =====
 // 受信先メールアドレス(お問い合わせの届く先)
-const TO_EMAIL   = 'marumen100@gmail.com';
-// 送信元アドレス。迷惑メール対策のため、できれば独自ドメインのアドレス
-// (例: info@あなたのドメイン)に変更してください。
-const FROM_EMAIL = 'marumen100@gmail.com';
+const TO_EMAIL   = 'info@kentei-center.or.jp';
+// 送信元アドレス。迷惑メール対策のため、独自ドメインのアドレスを使用。
+const FROM_EMAIL = 'info@kentei-center.or.jp';
 // 件名の接頭辞
 const SUBJECT_PREFIX = '[お問い合わせ] ';
 // ============================================================
