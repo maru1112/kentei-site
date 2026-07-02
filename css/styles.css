@@ -366,6 +366,24 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; color: var(--ink);
 .news-item__arrow { color: var(--gold); }
 
 /* =====================================================================
+   お知らせ：詳細
+   ===================================================================== */
+.news-detail { padding: 46px var(--gutter) 70px; background: var(--white); }
+.news-detail__meta { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+.news-detail__date { color: var(--muted); font-size: 13px; }
+.news-detail__tag { border: 1px solid var(--border); font-size: 11px; padding: 3px 10px; color: var(--text-2); white-space: nowrap; }
+.news-detail__ttl {
+  font-family: var(--serif); font-weight: 700; font-size: clamp(20px, 3vw, 26px);
+  color: var(--ink); line-height: 1.6; margin-bottom: 28px;
+  padding-bottom: 20px; border-bottom: 1px solid var(--border);
+}
+.news-detail__body { max-width: 800px; }
+.news-detail__body p { font-size: 15px; line-height: 2; color: var(--text-3); margin-bottom: 1.4em; }
+.news-detail__notfound { font-size: 15px; color: var(--text-2); margin-bottom: 24px; }
+.news-detail__back { display: inline-block; margin-top: 20px; font-size: 13px; color: var(--gold); }
+.news-detail__back:hover { text-decoration: underline; }
+
+/* =====================================================================
    お問い合わせ：フォーム
    ===================================================================== */
 .contact-methods { padding: 34px var(--gutter); background: var(--white); border-bottom: 1px solid var(--border); }
