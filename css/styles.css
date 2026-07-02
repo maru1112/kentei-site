@@ -282,7 +282,6 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; color: var(--ink);
 }
 .news-row:last-child { border-bottom: 1px solid rgba(255,255,255,.14); }
 .news-row__date { color: var(--gold); font-size: 13px; min-width: 92px; }
-.news-row__tag { border: 1px solid rgba(255,255,255,.3); font-size: 11px; padding: 3px 10px; color: #d8d6d0; white-space: nowrap; }
 .news-row__ttl { font-size: 14px; color: #eceae5; }
 
 /* =====================================================================
@@ -371,7 +370,6 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; color: var(--ink);
 .news-detail { padding: 46px var(--gutter) 70px; background: var(--white); }
 .news-detail__meta { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
 .news-detail__date { color: var(--muted); font-size: 13px; }
-.news-detail__tag { border: 1px solid var(--border); font-size: 11px; padding: 3px 10px; color: var(--text-2); white-space: nowrap; }
 .news-detail__ttl {
   font-family: var(--serif); font-weight: 700; font-size: clamp(20px, 3vw, 26px);
   color: var(--ink); line-height: 1.6; margin-bottom: 28px;
