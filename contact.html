@@ -14,6 +14,7 @@
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="css/styles.css">
 <script src="js/main.js" defer></script>
+<script src="js/contact.js" defer></script>
 </head>
 <body>
 <div class="site">
@@ -68,10 +69,17 @@
         <p style="font-size:13px;color:var(--muted);margin-top:12px"><span style="color:var(--req)">※</span> は必須項目です。</p>
       </div>
 
-      <form class="form-card" action="#" method="post" novalidate>
+      <div id="form-alert" class="form-alert" role="alert" style="display:none"></div>
+
+      <form id="contact-form" class="form-card" action="contact.php" method="post" novalidate>
+        <!-- スパム対策(人間には見えない項目。入力しないでください) -->
+        <div class="hp-field" aria-hidden="true">
+          <label>この項目は入力しないでください<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+        </div>
+
         <div>
-          <label class="field__label">お問い合わせ種別 <span class="req-badge">必須</span></label>
-          <select required>
+          <label class="field__label" for="f-type">お問い合わせ種別 <span class="req-badge">必須</span></label>
+          <select id="f-type" name="type" required>
             <option>受験・検定内容について</option>
             <option>団体・法人での受験について</option>
             <option>新しい検定の新設・運営の相談</option>
@@ -83,43 +91,43 @@
 
         <div class="field-2col">
           <div>
-            <label class="field__label">お名前 <span class="req-badge">必須</span></label>
-            <input type="text" placeholder="山田 太郎" required>
+            <label class="field__label" for="f-name">お名前 <span class="req-badge">必須</span></label>
+            <input id="f-name" type="text" name="name" placeholder="山田 太郎" required>
           </div>
           <div>
-            <label class="field__label">フリガナ</label>
-            <input type="text" placeholder="ヤマダ タロウ">
+            <label class="field__label" for="f-furigana">フリガナ</label>
+            <input id="f-furigana" type="text" name="furigana" placeholder="ヤマダ タロウ">
           </div>
         </div>
 
         <div>
-          <label class="field__label">会社・団体名 <span class="req-badge">必須</span></label>
-          <input type="text" placeholder="例：株式会社○○／○○高等学校" required>
+          <label class="field__label" for="f-company">会社・団体名 <span class="req-badge">必須</span></label>
+          <input id="f-company" type="text" name="company" placeholder="例：株式会社○○／○○高等学校" required>
         </div>
 
         <div class="field-2col">
           <div>
-            <label class="field__label">メールアドレス <span class="req-badge">必須</span></label>
-            <input type="email" placeholder="info@example.com" required>
+            <label class="field__label" for="f-email">メールアドレス <span class="req-badge">必須</span></label>
+            <input id="f-email" type="email" name="email" placeholder="info@example.com" required>
           </div>
           <div>
-            <label class="field__label">電話番号 <span class="req-badge">必須</span></label>
-            <input type="tel" placeholder="03-0000-0000" required>
+            <label class="field__label" for="f-tel">電話番号 <span class="req-badge">必須</span></label>
+            <input id="f-tel" type="tel" name="tel" placeholder="03-0000-0000" required>
           </div>
         </div>
 
         <div>
-          <label class="field__label">ご住所 <span class="req-badge">必須</span></label>
-          <input type="text" placeholder="〒100-0000　東京都〇〇区〇〇0-0-0" required>
+          <label class="field__label" for="f-address">ご住所 <span class="req-badge">必須</span></label>
+          <input id="f-address" type="text" name="address" placeholder="〒100-0000　東京都〇〇区〇〇0-0-0" required>
         </div>
 
         <div>
-          <label class="field__label">お問い合わせ内容 <span class="req-badge">必須</span></label>
-          <textarea rows="6" placeholder="お問い合わせ内容をご記入ください。" required></textarea>
+          <label class="field__label" for="f-message">お問い合わせ内容 <span class="req-badge">必須</span></label>
+          <textarea id="f-message" name="message" rows="6" placeholder="お問い合わせ内容をご記入ください。" required></textarea>
         </div>
 
         <label class="consent">
-          <input type="checkbox" required>
+          <input type="checkbox" name="consent" value="1" required>
           <span><a href="#">個人情報保護方針</a>に同意のうえ送信します。ご入力いただいた情報は、お問い合わせへの対応にのみ利用します。</span>
         </label>
 
