@@ -524,6 +524,14 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; color: var(--ink);
 .footer__col { display: flex; flex-direction: column; gap: 12px; }
 .footer__col a:hover, .footer__nav a:hover { color: var(--gold); }
 .footer__col .lead-link { color: var(--white); }
+.footer__links {
+  display: flex; align-items: baseline; gap: 12px 26px; flex-wrap: wrap;
+  padding-bottom: 22px; margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.footer__links-ttl { font-size: 11px; letter-spacing: .12em; color: #6a6a66; flex: none; }
+.footer__links-list { display: flex; gap: 10px 22px; flex-wrap: wrap; font-size: 12px; }
+.footer__links-list a { color: #8f8f8a; transition: color .2s; }
+.footer__links-list a:hover { color: var(--gold); }
 .footer__copy { font-size: 11px; color: #6a6a66; }
 
 /* =====================================================================
