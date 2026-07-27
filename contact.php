@@ -154,7 +154,8 @@ $headers  = 'From: ' . $from_header . "\r\n";
 $headers .= 'Reply-To: ' . $data['email'] . "\r\n";
 
 // Xserverではエンベロープ送信元(-f)の指定が必須。指定しないと配信されない/
-// 迷惑メール扱いになることが多い。FROM_EMAIL はサーバー上に実在するアドレスにすること。
+// 迷惑メール扱いになることが多い。SPFに spf.sender.xserver.jp を含めることで
+// この送信元でSPF認証が通り、DMARCも成立する(詳細はCLAUDE.md参照)。
 $envelope = '-f' . FROM_EMAIL;
 $sent = mb_send_mail(TO_EMAIL, $subject, $body, $headers, $envelope);
 
