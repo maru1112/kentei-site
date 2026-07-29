@@ -36,4 +36,12 @@
     <loc>https://kentei-center.or.jp/privacy.html</loc>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://kentei-center.or.jp/terms.html</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/law.html</loc>
+    <priority>0.3</priority>
+  </url>
 </urlset>
