@@ -110,6 +110,7 @@
         <div class="eyebrow">CONTACT FORM</div>
         <h2>お問い合わせフォーム</h2>
         <p style="font-size:13px;color:var(--muted);margin-top:12px"><span style="color:var(--req)">※</span> は必須項目です。</p>
+        <p class="form-notice">営業・勧誘を目的としたお問い合わせはお断りしております。ご返信いたしかねますので、あらかじめご了承ください。</p>
       </div>
 
       <div id="form-alert" class="form-alert" role="alert" style="display:none"></div>
@@ -119,6 +120,8 @@
         <div class="hp-field" aria-hidden="true">
           <label>この項目は入力しないでください<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
         </div>
+        <!-- スパム対策:ページ表示から送信までの経過ミリ秒(js/contact.jsが設定) -->
+        <input type="hidden" name="elapsed" value="">
 
         <div>
           <label class="field__label" for="f-type">お問い合わせ種別 <span class="req-badge">必須</span></label>

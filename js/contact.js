@@ -3,6 +3,9 @@
 (function () {
   'use strict';
 
+  // ページ表示時刻。送信までの経過時間をスパム判定に使う(contact.php側で検証)
+  var loadedAt = Date.now();
+
   document.addEventListener('DOMContentLoaded', function () {
     var form = document.getElementById('contact-form');
     if (!form) return;
@@ -35,6 +38,10 @@
     }
 
     form.addEventListener('submit', function (e) {
+      // ページ表示からの経過ミリ秒を記録(速すぎる送信はボットとして弾かれる)
+      var elapsed = form.querySelector('input[name="elapsed"]');
+      if (elapsed) elapsed.value = String(Date.now() - loadedAt);
+
       // ブラウザ標準の必須チェックを先に走らせる
       if (!form.checkValidity()) {
         return; // ネイティブのバリデーションUIに任せる
