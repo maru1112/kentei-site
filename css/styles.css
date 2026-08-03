@@ -413,6 +413,8 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; color: var(--ink);
 .form-submit button:hover { background: var(--gold); color: var(--ink); }
 .form-submit button:disabled { opacity: .6; cursor: default; }
 
+.form-notice { font-size: 12px; line-height: 1.8; color: var(--muted); margin-top: 6px; }
+
 /* スパム対策のハニーポット項目(画面外へ隠す) */
 .hp-field { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 
