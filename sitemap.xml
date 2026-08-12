@@ -44,4 +44,36 @@
     <loc>https://kentei-center.or.jp/law.html</loc>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/about.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/guide.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/flow.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/apply.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/textbook.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/qa.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/contact.php</loc>
+    <priority>0.5</priority>
+  </url>
 </urlset>
