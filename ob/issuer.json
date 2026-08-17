@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    ],
+    "id": "https://kentei-center.or.jp/ob/issuer.json",
+    "type": ["Profile"],
+    "name": "一般社団法人 日本総合検定資格センター",
+    "url": "https://kentei-center.or.jp/",
+    "email": "info@kentei-center.or.jp"
+}

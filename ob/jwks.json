@@ -1,0 +1,12 @@
+{
+    "keys": [
+        {
+            "kty": "OKP",
+            "crv": "Ed25519",
+            "x": "Pj94QTJ3_Q45_-fdi5iGMpxTQnlcXnpGeiJKvSNCaIs",
+            "kid": "kentei-center-ob-2026",
+            "alg": "EdDSA",
+            "use": "sig"
+        }
+    ]
+}
