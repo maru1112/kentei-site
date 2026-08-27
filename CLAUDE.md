@@ -22,6 +22,7 @@
 - スタイルは `css/styles.css` に集約(デザイントークンは `:root` に定義)
 - JSは `js/main.js`(ナビ開閉)、`js/news.js`(お知らせ描画)、`js/contact.js`(フォーム送信)
 - ファビコンは `favicon.ico`(ルート)と `assets/favicon-*.png` / `assets/apple-touch-icon.png`
+- 管理画面(`/kanri/`、このリポジトリ外)用に、色を反転した `assets/favicon-admin-*.png` / `assets/apple-touch-icon-admin.png` / `assets/favicon-admin.ico` を用意している。通常サイトとタブ上で見分けるためのもので、参照する `<link rel="icon">` は管理画面側のHTMLに書く必要がある
 - SNS共有画像は `assets/ogp.png`
 
 ## お知らせの更新方法
