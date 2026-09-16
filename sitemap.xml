@@ -76,4 +76,40 @@
     <loc>https://kentei-center.or.jp/goshuin/contact.php</loc>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://kentei-center.or.jp/office/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/office/about.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/office/guide.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/office/flow.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/office/apply.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/office/textbook.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/office/qa.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/office/column.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/office/contact.php</loc>
+    <priority>0.5</priority>
+  </url>
 </urlset>
