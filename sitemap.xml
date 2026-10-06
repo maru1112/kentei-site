@@ -112,4 +112,40 @@
     <loc>https://kentei-center.or.jp/office/contact.php</loc>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://kentei-center.or.jp/jidosha/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/jidosha/about.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/jidosha/guide.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/jidosha/flow.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/jidosha/apply.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/jidosha/textbook.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/jidosha/qa.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/jidosha/column.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/jidosha/contact.php</loc>
+    <priority>0.5</priority>
+  </url>
 </urlset>
