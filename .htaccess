@@ -5,3 +5,13 @@
   RewriteCond %{HTTP_HOST} ^www\.kentei-center\.or\.jp [NC]
   RewriteRule ^(.*)$ https://kentei-center.or.jp/$1 [R=301,L]
 </IfModule>
+
+# データベースファイルは絶対に公開しない（誤配置時の保険）
+<FilesMatch "\.(db|sqlite|sqlite3)$">
+  Require all denied
+</FilesMatch>
+
+# 作業メモ（CLAUDE.md・README.md など）は公開しない
+<FilesMatch "\.md$">
+  Require all denied
+</FilesMatch>
