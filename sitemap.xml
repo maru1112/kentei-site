@@ -77,6 +77,66 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=bonji-shuji-ichiran</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=fukuoka-hatsumode-course</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=gojoin-chigai</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=goshuin-itadakikata</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=goshuin-tenbai</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=goshuincho-erabikata</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=hatsumode-goshuin</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=hohai-imi</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=izumo-sanpai</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=jodoshinshu-goshuin</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=saigoku33</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=shikoku-henro</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=shogatsu-gentei-goshuin</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/goshuin/column.php?a=tokyo-jissha</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kentei-center.or.jp/office/</loc>
     <priority>0.8</priority>
   </url>
