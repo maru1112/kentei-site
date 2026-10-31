@@ -291,6 +291,10 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; color: var(--ink);
 .exam--rev { grid-template-columns: 1fr 500px; background: var(--paper); }
 .exam__img { aspect-ratio: 16 / 10; margin: 40px 0 40px 40px; background-position: center; background-repeat: no-repeat; background-size: cover; }
 .exam--rev .exam__img { margin: 40px 40px 40px 0; }
+.exam__img { position: relative; }
+.exam__logo { position: absolute; height: auto; padding: 1.4% 1.8%; box-sizing: content-box; background: rgba(255,255,255,.9); border-radius: 6px; }
+.exam__logo--tl { top: 4%; left: 3%; }
+.exam__logo--br { bottom: 4%; right: 3%; }
 .exam__body { padding: 60px 54px; display: flex; flex-direction: column; justify-content: center; }
 .exam__body--paper { background: var(--paper); }
 .exam__meta { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
