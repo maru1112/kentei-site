@@ -208,4 +208,40 @@
     <loc>https://kentei-center.or.jp/jidosha/contact.php</loc>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://kentei-center.or.jp/harassment/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/harassment/about.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/harassment/guide.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/harassment/flow.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/harassment/apply.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/harassment/textbook.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/harassment/qa.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/harassment/column.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/harassment/contact.php</loc>
+    <priority>0.5</priority>
+  </url>
 </urlset>
