@@ -287,9 +287,10 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; color: var(--ink);
 /* =====================================================================
    検定一覧：横長ブロック
    ===================================================================== */
-.exam { display: grid; grid-template-columns: 480px 1fr; }
-.exam--rev { grid-template-columns: 1fr 480px; }
-.exam__img { min-height: 420px; background-position: center; background-repeat: no-repeat; background-size: contain; }
+.exam { display: grid; grid-template-columns: 500px 1fr; align-items: center; min-height: 580px; }
+.exam--rev { grid-template-columns: 1fr 500px; background: var(--paper); }
+.exam__img { aspect-ratio: 16 / 10; margin: 40px 0 40px 40px; background-position: center; background-repeat: no-repeat; background-size: cover; }
+.exam--rev .exam__img { margin: 40px 40px 40px 0; }
 .exam__body { padding: 60px 54px; display: flex; flex-direction: column; justify-content: center; }
 .exam__body--paper { background: var(--paper); }
 .exam__meta { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
@@ -577,8 +578,8 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; color: var(--ink);
 
   /* 検定・事業ブロックを縦積み（画像を上に） */
   .exam, .exam--rev, .zigzag { grid-template-columns: 1fr; }
-  .exam__img { min-height: 300px; order: -1; }
-  .exam--rev .exam__img { order: -1; }
+  .exam { min-height: 0; }
+  .exam__img, .exam--rev .exam__img { margin: 0; order: -1; }
   .zigzag__img { min-height: 260px; order: -1; }
   .zigzag__body { order: 0; }
   .exam__body, .zigzag__body { padding: 44px var(--gutter); }
