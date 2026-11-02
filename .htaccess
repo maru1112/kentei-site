@@ -15,3 +15,13 @@
 <FilesMatch "\.md$">
   Require all denied
 </FilesMatch>
+
+# 安全用の応答ヘッダー（セキュリティ点検 2026-11-02）
+#  HSTS=常にhttpsで開かせる／nosniff=ファイルの種類の取り違えを防ぐ／SAMEORIGIN=他サイトへの埋め込み（なりすまし画面）を防ぐ
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
