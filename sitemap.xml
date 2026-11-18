@@ -244,4 +244,40 @@
     <loc>https://kentei-center.or.jp/harassment/contact.php</loc>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://kentei-center.or.jp/nihon-ryoko/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/nihon-ryoko/about.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/nihon-ryoko/guide.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/nihon-ryoko/flow.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/nihon-ryoko/apply.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/nihon-ryoko/textbook.php</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/nihon-ryoko/qa.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/nihon-ryoko/column.php</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kentei-center.or.jp/nihon-ryoko/contact.php</loc>
+    <priority>0.5</priority>
+  </url>
 </urlset>
